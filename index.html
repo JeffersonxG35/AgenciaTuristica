@@ -25,34 +25,87 @@
         <h2>Destinos Populares</h2>
         <article>
           <h3>Parque Nacional Cajas</h3>
-          <p>El Parque Nacional Cajas en los Andes ecuatorianos ofrece paisajes diversos y asombrosos, desde lagunas cristalinas hasta bosques y praderas de montaña.</p>
+          <p>Admira los impresionantes paisajes de páramo, bosques de polylepis y más de 200 lagunas glaciales.</p>
           <img src="img/cajas.png" alt="Llamas caminando alrededor de un lago en el parque nacional Cajas" />
         </article>
 
         <article>
           <h3>Carachula</h3>
-          <p>Carachula es conocida como la ciudad de piedra, era considerado por los cañaris, un centro ceremonial y religioso.</p>
+          <p>Explora este fascinante complejo de formaciones rocosas naturales ubicado en Santa Isabel, ideal para el ecoturismo y la aventura.</p>
           <img src="img/carachula.png" alt="Vista panorámica de la ciudad de piedra Carachula" />
-
         </article>
       </section>
 
       <section id="ofertas">
         <h2>Ofertas Especiales</h2>
         <p>Descubre nuestras ofertas especiales y disfruta de experiencias únicas.</p>
+        <div class="ofertas-grid">
+                <article>
+                    <h3>Paquete Full Day Cajas</h3>
+                    <p><strong>Incluye:</strong> Transporte privado, guía especializado en alta montaña, ingreso al Parque Nacional Cajas y almuerzo típico.</p>
+                    <p><em>¡Reserva hoy y obtén un 15% de descuento en tu equipo de senderismo!</em></p>
+                </article>
+
+                <article>
+                    <h3>Aventura en la Ciudad de Piedra (Santa Isabel)</h3>
+                    <p><strong>Incluye:</strong> Excursión guiada por las formaciones rocosas de Carachula, refrigerio local y transporte ida y vuelta.</p>
+                    <p><em>¡Ideal para los amantes de la fotografía y el ecoturismo!</em></p>
+                </article>
+            </div>
       </section>
 
       <aside>
         <h2>Consejos para viajar</h2>
-        <p>Antes de viajar, asegúrate de tener todos los documentos necesarios y de verificar el clima del destino.</p>
+       <ul>
+                <li><strong>Vestimenta en capas (sistema cebolla):</strong> El clima en el Cajas y Santa Isabel cambia rápido; lleva ropa térmica, impermeable y cortavientos.</li>
+                <li><strong>Calzado adecuado:</strong> Utiliza botas de senderismo con buen agarre, ya que los terrenos pueden estar húmedos y rocosos.</li>
+                <li><strong>Hidratación y energía:</strong> Lleva agua, frutos secos o snacks energéticos para las caminatas largas.</li>
+                <li><strong>Protección solar:</strong> No olvides usar protector solar, gafas y gorra, debido a la alta radiación en zonas de páramo.</li>
+            </ul>
       </aside>
 
+    <section id="contacto">
+      <h2>Reserva tu viaje</h2>
+      <p>Para reservar tu viaje, completa el siguiente formulario y nos pondremos en contacto contigo.</p>
+      
+      <form action="#" method="POST">
+        <fieldset>
+          <legend>Información de Reserva</legend>
+
+          <div>
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" required placeholder="Ej. Xavier Sisa" />
+          </div>
+
+          <div>
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" required placeholder="example@gmail.com" />
+          </div>
+
+          <div>
+            <label for="fecha">Fecha de viaje:</label>
+            <input type="date" id="fecha" name="fecha" required />
+          </div>
+
+          <div>
+            <label for="tamano-grupo">Número de personas en el grupo:</label>
+            <input type="range" id="tamano-grupo" name="tamano_grupo" min="1" max="10" step="1" value="2">
+          </div>
+
+          <div>
+            <label for="telefono">Teléfono de contacto:</label>
+            <input type="tel" id="telefono" name="telefono" required placeholder="0991234567">
+          </div>
+
+          <button type="submit">Enviar Solicitud</button>
+        </fieldset>
+      </form>
+    </section>
     </main>
 
     <footer>
       <p>&copy; 2026 AzuTours. Todos los derechos reservados.</p>
     </footer>
-
-
+    
   </body>
 </html>
