@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AzuTours</title>
-    <link rel="stylesheet" href="estilos.css" />
+    <link rel="stylesheet" href="css/estilos.css" />
   </head>
 
   <body>
@@ -23,6 +23,7 @@
     <main>
       <section id="destinos">
         <h2>Destinos Populares</h2>
+        <div class="destinos-grid">
         <article>
           <h3>Parque Nacional Cajas</h3>
           <p>Admira los impresionantes paisajes de páramo, bosques de polylepis y más de 200 lagunas glaciales.</p>
@@ -34,6 +35,7 @@
           <p>Explora este fascinante complejo de formaciones rocosas naturales ubicado en Santa Isabel, ideal para el ecoturismo y la aventura.</p>
           <img src="img/carachula.png" alt="Vista panorámica de la ciudad de piedra Carachula" />
         </article>
+        </div>
       </section>
 
       <section id="ofertas">
@@ -54,16 +56,15 @@
             </div>
       </section>
 
-      <aside>
-        <h2>Consejos para viajar</h2>
-       <ul>
-                <li><strong>Vestimenta en capas (sistema cebolla):</strong> El clima en el Cajas y Santa Isabel cambia rápido; lleva ropa térmica, impermeable y cortavientos.</li>
-                <li><strong>Calzado adecuado:</strong> Utiliza botas de senderismo con buen agarre, ya que los terrenos pueden estar húmedos y rocosos.</li>
-                <li><strong>Hidratación y energía:</strong> Lleva agua, frutos secos o snacks energéticos para las caminatas largas.</li>
-                <li><strong>Protección solar:</strong> No olvides usar protector solar, gafas y gorra, debido a la alta radiación en zonas de páramo.</li>
-            </ul>
-      </aside>
-    
+        <aside>
+          <h2>Consejos para viajar</h2>
+          <ul>
+            <li><strong>Vestimenta en capas (sistema cebolla):</strong> El clima en el Cajas y Santa Isabel cambia rápido; lleva ropa térmica, impermeable y cortavientos.</li>
+            <li><strong>Calzado adecuado:</strong> Utiliza botas de senderismo con buen agarre, ya que los terrenos pueden estar húmedos y rocosos.</li>
+            <li><strong>Hidratación y energía:</strong> Lleva agua, frutos secos o snacks energéticos para las caminatas largas.</li>
+            <li><strong>Protección solar:</strong> No olvides usar protector solar, gafas y gorra, debido a la alta radiación en zonas de páramo.</li>
+          </ul>
+        </aside>
 
     <section id="itinerarios">
       <h2>Comparativa de excursiones</h2>
@@ -76,7 +77,8 @@
             <th scope="col">Destinos </th>
             <th scope="col">Duración</th>
             <th scope="col">Nivel de dificultad</th>
-            <th scope="col">Tarifa base</th>
+            <th scope="col">Incluye</th>
+            <th scope="col">Tarifa Base</th>
           </tr>
         </thead>
         <tbody>
@@ -84,14 +86,16 @@
             <th scope="row">Parque Nacional Cajas</th>
             <td>1 Día (Full Day)</td>
             <td>Moderado</td>
+            <td>Transporte, guía y almuerzo</td>
             <td>$35.00</td>
           </tr>
 
           <tr>
-            <th scope="row">Ciudad de piedra (Santa Isabel)</th>
+            <th scope="row">Ciudad de piedra (Carachula)</th>
              <td>1 Día (Full Day)</td>
              <td>Fácil / Intermedio</td>
-             <td>$28,00</td>
+             <td>Transporte, guía y refrigerio</td>
+             <td>$28.00</td>
           </tr>
         </tbody>
       </table>
