@@ -18,10 +18,15 @@
     }
 }
 
+.destinos-grid article,
+.ofertas-grid article {
+    flex: 1 1 100%;
+}
+
 @media (min-width: 900px) {
     .destinos-grid article,
     .ofertas-grid article {
-        flex: 1 1 calc(50% - 1.5rem); 
+        flex: 1 1 calc(50% - 1.5rem);
     }
 }
 
